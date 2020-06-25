@@ -1,5 +1,5 @@
 {
-    "name": "advoor/nova-editor-js",
+    "name": "mattadorstarfish/nova-editor-js",
     "description": "A Laravel Nova field bringing EditorJs magic to Nova.",
     "keywords": [
         "laravel",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Advoor\\NovaEditorJs\\": "src/"
+            "MattadorStarfish\\NovaEditorJs\\": "src/"
         }
     },
     "autoload-dev": {
@@ -33,14 +33,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Advoor\\NovaEditorJs\\FieldServiceProvider"
+                "MattadorStarfish\\NovaEditorJs\\FieldServiceProvider"
             ]
         }
     },
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "^7.2.5"
+            "php": "7.2.5"
         }
     },
     "minimum-stability": "dev",

@@ -3,6 +3,8 @@
 [![Latest Version on Github](https://img.shields.io/github/release/advoor/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/advoor/nova-editor-js)
 [![Total Downloads](https://img.shields.io/packagist/dt/advoor/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/advoor/nova-editor-js)
 
+This package was forked from `https://github.com/advoor/nova-editor-js`. This package was forked to bump the Nova version to 3.0+.
+
 A Laravel Nova implementation of [Editor.js](https://github.com/codex-team/editor.js) by [@advoor](https://github.com/advoor).
 
 ## Installation
@@ -15,7 +17,7 @@ composer require advoor/nova-editor-js
 
 Publish the config file
 ```
-php artisan vendor:publish --provider="Advoor\NovaEditorJs\FieldServiceProvider"
+php artisan vendor:publish --provider="MattadorStarfish\NovaEditorJs\FieldServiceProvider"
 ```
 
 ## Upgrade
@@ -26,7 +28,7 @@ If upgrading from v0.4.0, re-publish the config file!
 Add this `use` statement to the top of the your nova resource file:
 
 ```
-use Advoor\NovaEditorJs\NovaEditorJs;
+use MattadorStarfish\NovaEditorJs\NovaEditorJs;
 ```
 
 Use the field as below:

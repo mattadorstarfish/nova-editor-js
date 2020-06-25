@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Advoor\NovaEditorJs\FieldServiceProvider;
+use MattadorStarfish\NovaEditorJs\FieldServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 /**
