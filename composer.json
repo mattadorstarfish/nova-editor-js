@@ -1,5 +1,6 @@
 {
     "name": "mattadorstarfish/nova-editor-js",
+    "version": "0.6.7",
     "description": "A Laravel Nova field bringing EditorJs magic to Nova.",
     "keywords": [
         "laravel",
